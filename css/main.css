@@ -1,0 +1,28 @@
+/* ========== 📌 COMMON ========== */
+
+body {
+  background-color: darkolivegreen;
+  padding-left: 80px;
+}
+
+.page-title {
+  color: rgb(180, 231, 187);
+}
+
+.return-link {
+  color: rgb(203, 224, 206);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* ========== 📌 MAIN PAGE ========== */
+
+.task-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.task-list-link {
+  color: rgb(203, 224, 206);
+  font-size: 20px;
+  text-decoration: none;
+}
