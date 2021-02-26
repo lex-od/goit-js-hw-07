@@ -10,7 +10,7 @@ body {
 .page-title {
   margin-top: 0;
 
-  color: rgb(180, 231, 187);
+  color: #b4e7bb;
 }
 
 .example-list {
@@ -21,7 +21,7 @@ body {
   display: inline-block;
   margin-top: 20px;
 
-  color: rgb(203, 224, 206);
+  color: #cbe0ce;
   font-size: 20px;
   text-decoration: none;
 }
@@ -45,7 +45,7 @@ img {
 }
 
 .task-list-link {
-  color: rgb(203, 224, 206);
+  color: #cbe0ce;
   font-size: 20px;
   text-decoration: none;
 }
