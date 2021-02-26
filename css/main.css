@@ -1,8 +1,10 @@
 /* ========== 📌 COMMON ========== */
 
 body {
-  background-color: darkolivegreen;
   padding-left: 80px;
+  min-height: 100vh;
+
+  background-image: linear-gradient(to right bottom, darkolivegreen, white);
 }
 
 .page-title {
