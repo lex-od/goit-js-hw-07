@@ -72,3 +72,23 @@ img {
   width: calc(100% / 3 - 30px);
   margin: 15px;
 }
+
+/* ========== 📌 TASK 5 ========== */
+
+#name-input + h1 {
+  margin-bottom: 0;
+}
+
+/* ========== 📌 TASK 6 ========== */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
