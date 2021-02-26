@@ -1,20 +1,45 @@
 /* ========== 📌 COMMON ========== */
 
 body {
-  padding-left: 80px;
+  padding: 15px 15px 15px 50px;
   min-height: 100vh;
 
   background-image: linear-gradient(to right bottom, darkolivegreen, white);
 }
 
 .page-title {
+  margin-top: 0;
+
   color: rgb(180, 231, 187);
 }
 
+.example-list {
+  margin: 0;
+}
+
+.example-title {
+  margin-top: 0;
+}
+
 .return-link {
+  display: inline-block;
+  margin-top: 20px;
+
   color: rgb(203, 224, 206);
   font-size: 20px;
   text-decoration: none;
+}
+
+.list {
+  padding-left: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 /* ========== 📌 MAIN PAGE ========== */
@@ -27,4 +52,23 @@ body {
   color: rgb(203, 224, 206);
   font-size: 20px;
   text-decoration: none;
+}
+
+/* ========== 📌 TASK 1 ========== */
+
+#categories > .item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* ========== 📌 TASK 3 ========== */
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.gallery-item {
+  width: calc(100% / 3 - 30px);
+  margin: 15px;
 }
