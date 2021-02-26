@@ -17,10 +17,6 @@ body {
   margin: 0;
 }
 
-.example-title {
-  margin-top: 0;
-}
-
 .return-link {
   display: inline-block;
   margin-top: 20px;
@@ -58,6 +54,10 @@ img {
 
 #categories > .item:not(:last-child) {
   margin-bottom: 20px;
+}
+
+#categories h2 {
+  margin-top: 0;
 }
 
 /* ========== 📌 TASK 3 ========== */
