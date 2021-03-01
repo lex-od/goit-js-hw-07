@@ -22,7 +22,8 @@ galleryListRef.insertAdjacentHTML(
   "afterbegin",
   images.reduce(
     (galleryItems, { url, alt }) =>
-      (galleryItems += `<li class = "gallery-item"><img src = "${url}" alt = "${alt}"></li>`),
+      galleryItems +
+      `<li class = "gallery-item"><img src = "${url}" alt = "${alt}"></li>`,
     ""
   )
 );
